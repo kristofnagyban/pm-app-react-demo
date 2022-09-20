@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.muiGrid {
+  grid-gap: 20px;
+  justify-content: center;
+  position: relative;
+  margin-top: 0 !important;
+}
+
+.center-progress {
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+h1 {
+  height: 5rem;
+  margin-top: 0;
+  position: sticky;
+  background-color: darkolivegreen;
+}
+
+Button {
+  margin-bottom: 2rem !important;
+}
